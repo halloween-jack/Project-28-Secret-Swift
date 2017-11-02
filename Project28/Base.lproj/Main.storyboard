@@ -18,8 +18,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eTq-lK-ywM">
-                                <rect key="frame" x="137" y="343.5" width="100" height="44"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eTq-lK-ywM">
+                                <rect key="frame" x="137" y="344" width="100" height="44"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="44" id="b7a-vh-D5s"/>
                                     <constraint firstAttribute="width" constant="100" id="eyz-iA-flO"/>
@@ -29,8 +29,8 @@
                                     <action selector="authenticateTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LNM-ce-8mI"/>
                                 </connections>
                             </button>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="k1u-QN-V78">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            <textView hidden="YES" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="k1u-QN-V78">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -38,12 +38,12 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="k1u-QN-V78" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="W8I-Id-dep"/>
-                            <constraint firstItem="eTq-lK-ywM" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="ZU4-vO-3WU"/>
-                            <constraint firstAttribute="trailing" secondItem="k1u-QN-V78" secondAttribute="trailing" id="Za8-jc-5Cy"/>
-                            <constraint firstItem="k1u-QN-V78" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="aBN-fl-mAm"/>
-                            <constraint firstItem="k1u-QN-V78" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="ofr-PN-YQH"/>
-                            <constraint firstItem="eTq-lK-ywM" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="vpl-pv-deV"/>
+                            <constraint firstItem="k1u-QN-V78" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="2y0-m5-s3b"/>
+                            <constraint firstItem="k1u-QN-V78" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="89O-xu-rt4"/>
+                            <constraint firstItem="k1u-QN-V78" firstAttribute="centerY" secondItem="eTq-lK-ywM" secondAttribute="centerY" id="AIt-jN-5m8"/>
+                            <constraint firstItem="k1u-QN-V78" firstAttribute="centerX" secondItem="eTq-lK-ywM" secondAttribute="centerX" id="Arp-C4-Vdg"/>
+                            <constraint firstItem="k1u-QN-V78" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="d8A-Mj-dr8"/>
+                            <constraint firstAttribute="trailing" secondItem="k1u-QN-V78" secondAttribute="trailing" id="t28-YR-J1E"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
